@@ -368,6 +368,14 @@ a {
   display: flex;
 }
 
+.hide-me {
+  display: none;
+}
+
+.hide-me:hover {
+  display: block;
+}
+
 .project-img {
   width: 100%;
   height: 100%;
