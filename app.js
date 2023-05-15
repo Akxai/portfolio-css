@@ -174,10 +174,6 @@ const changePalette = () => {
 xBox.addEventListener("click", changePalette);
 
 const profils = document.querySelectorAll("#profil");
-console.log(profils[0].attributes.colors.nodeValue);
-console.log(profils[1].attributes.colors.nodeValue);
-console.log(profils[2].attributes.colors.nodeValue);
-console.log(profils[3].attributes.colors.nodeValue);
 
 sliderInput.addEventListener("input", function () {
   const sliderValue = sliderInput.value;
